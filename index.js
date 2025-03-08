@@ -176,7 +176,7 @@ newArray.push("orange");
 console.log(newArray);
 console.log(newArray.deleteByIndex(1)); */
 
-/* Reverse a string
+/*12) Reverse a string
 function reverse(name) {
   let reverseName = name.split("").reverse().join("");
   console.log(reverseName);
@@ -184,7 +184,7 @@ function reverse(name) {
 
 reverse("Apple"); */
 
-/*12) Reverse a number
+/*13) Reverse a number
 function reverseInt(str) {
   if (str < 2) return str;
   if (isNaN(str)) return console.log("Please enter number");
@@ -193,7 +193,7 @@ function reverseInt(str) {
 }
 console.log(reverseInt(525));*/
 
-/*13) Capitalize str
+/*14) Capitalize str
 function capitalize(str) {
   return str
     .toLowerCase()
@@ -203,4 +203,37 @@ function capitalize(str) {
 }
 console.log(capitalize("code for interview"));*/
 
-//14)
+/*15) alter the number
+function alterNum(num) {
+  for (let i = 0; i <= num; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log("FizzBuzz");
+    } else if (i % 3 === 0) {
+      console.log("Fizz");
+    } else if (i % 5 === 0) {
+      console.log("Buzz");
+    } else {
+      console.log(i);
+    }
+  }
+}
+alterNum(10);*/
+
+/*16) Find the max price
+function maxPrice(price) {
+  let minPrice = price[0];
+  let maxProfit = 0;
+  for (let i = 1; i < price.length; i++) {
+    const currentPrice = price[i];
+    minPrice = Math.min(minPrice, currentPrice);
+    const potentialProfit = currentPrice - minPrice;
+    maxProfit = Math.max(maxProfit, potentialProfit);
+    console.log(maxProfit);
+  }
+  return maxProfit;
+}
+const prices = [7, 1, 5, 3, 6, 4];
+const profit = maxPrice(prices);
+console.log("Max profit is: ", profit);*/
+
+//17)
