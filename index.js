@@ -236,4 +236,32 @@ const prices = [7, 1, 5, 3, 6, 4];
 const profit = maxPrice(prices);
 console.log("Max profit is: ", profit);*/
 
-//17)
+/*17) Array Chunk 
+function chunk(arr, size) {
+  let chunked = [];
+  let index = 0;
+  while (index < arr.length) {
+    let chunk = arr.slice(index, index + size);
+    chunked.push(chunk);
+    index += size;
+  }
+  return chunked;
+}
+console.log(chunk([1, 2, 3, 4, 5, 6, 7, 8], 3));*/
+
+/*18) Sum of two numbers
+function twoSum(numbs, target) {
+  for (let i = 0; i < numbs.length; i++) {
+    for (let j = i + 1; j, numbs.length; j++) {
+      if (numbs[i] + numbs[j] === target) {
+        return [i, j];
+      }
+    }
+  }
+  return [];
+}
+
+const res = twoSum([5, 4, 3, 2, 1], 4);
+console.log(res); */
+
+//19)
