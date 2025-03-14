@@ -249,7 +249,7 @@ function chunk(arr, size) {
 }
 console.log(chunk([1, 2, 3, 4, 5, 6, 7, 8], 3));*/
 
-/*18) Sum of two numbers
+/*18) Sum of two numbers index
 function twoSum(numbs, target) {
   for (let i = 0; i < numbs.length; i++) {
     for (let j = i + 1; j, numbs.length; j++) {
@@ -264,4 +264,6 @@ function twoSum(numbs, target) {
 const res = twoSum([5, 4, 3, 2, 1], 4);
 console.log(res); */
 
-//19)
+//** */)Linked Lists
+
+//1)
